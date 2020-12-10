@@ -10,6 +10,6 @@ def timer(function: Callable):
         time = process_time()
         result = function(*args, **kwargs)
         print(f"{Fore.BLUE}Elasped time {process_time() - time:.3f} s{Fore.RESET}")
-        return result
+        return result + 1
 
     return wrapper
