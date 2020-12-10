@@ -1,10 +1,11 @@
 __version__ = "0.1.0"
 
+from typing import Callable
 from time import process_time
 from colorama import Fore
 
 
-def timer(function):
+def timer(function: Callable):
     def wrapper(*args, **kwargs):
         time = process_time()
         result = function(*args, **kwargs)
