@@ -2,10 +2,10 @@
 
 ## Installation
 
-Install this module with pip
+Install this module with pip (requires Python 3.8 or newer)
 
 ```sh
-pip install -U git+https://github.com/nobeam/timer.git
+pip install -U git+https://github.com/nobeam/example-package-timer
 ```
 
 ## Usage
